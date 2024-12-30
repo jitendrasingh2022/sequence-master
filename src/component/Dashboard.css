@@ -1,0 +1,55 @@
+.container {
+    background-color: rgb(247, 250, 249);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dasleft {
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(216, 225, 216);
+}
+
+.name {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.img {
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.Dasright {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: rgb(73, 73, 87);
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial;
+}
+
+.dashbord {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.home {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.client {
+    margin-top: 25px;
+    margin-left: 80px;
+}
