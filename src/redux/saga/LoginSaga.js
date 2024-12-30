@@ -26,6 +26,7 @@ export function* loginSaga({ userName, password }) {
         userSuccess: true,
         isOnboarded: "",
         loginPage: "",
+        accessToken: accessToken,
         userInfo: {},
       })
     );
@@ -176,6 +177,7 @@ export function* logoutUserSaga() {
       yield put(
         loginSuccess({
           userSuccess: false,
+          accessToken: null,
           loginPage,
           userInfo: {},
         })

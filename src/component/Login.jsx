@@ -12,11 +12,14 @@ const Login = () => {
   const [showPasswordError, setShowPasswordError] = useState(false);
   const loginData = useSelector((state) => state.login);
   const navigate = useNavigate();
+  console.log("loginData", loginData);
   // useEffect(() => {
-  //   if (loginData.userSuccess === true) {
+  //   const localToken = localStorage.getItem("access_token");
+  //   console.log("access_token==", localToken);
+  //   if (localToken !== "undefined") {
   //     navigate("/dashboard");
   //   }
-  // });
+  // }, [loginData]);
 
   const dispatch = useDispatch();
 
